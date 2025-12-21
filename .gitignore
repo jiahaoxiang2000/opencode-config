@@ -1,0 +1,157 @@
+# OpenCode Configuration .gitignore
+
+# Dependencies
+node_modules/
+
+# Development files (not needed for config)
+package.json
+bun.lock
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+npm-shrinkwrap.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.swp
+*~
+*.bak
+*.backup
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.Trash-*
+
+# IDE files
+.vscode/
+.idea/
+*.swo
+*.swn
+*.iml
+.project
+.classpath
+.c9/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.sock
+*.lock
+
+# Test files
+*.test.*
+tests/
+test/
+coverage/
+*.lcov
+*.gcda
+*.gcno
+.nyc_output/
+
+# Build artifacts
+dist/
+build/
+*.o
+*.so
+*.a
+*.tgz
+
+# Optional caches
+.grunt/
+bower_components/
+jspm_packages/
+typings/
+.npm/
+.eslintcache/
+.node_repl_history/
+.fusebox/
+.dynamodb/
+.tern-port/
+.vscode-test/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Custom opencode runtime
+opencode_cache/
+opencode_sessions/
+opencode_history/
+sessions/
+history/
+
+# Downloaded models/assets
+models/
+downloads/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+.docker/
+
+# Local overrides
+local.json
+overrides.json
+config/local/
+
+# Workspace files
+*.code-workspace
+
+# API key backups or secrets
+*secret*
+*key*
+*.key
+*.secret
+
+# Cache directories
+.cache-*
+
+# Temporary files
+*.tmp.js
+*.tmp.ts
+*.tmp.json
+*.swo
+*.swn
+
+# Next.js
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional
+opencode*.json
+!opencode.json
