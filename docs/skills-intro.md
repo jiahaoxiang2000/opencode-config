@@ -122,7 +122,7 @@ The frontmatter requires:
 
 ## How Skills Work in OpenCode
 
-OpenCode implements skills through the `[opencode-skills](https://github.com/malhashemi/opencode-skills)` plugin, which automatically discovers and registers skills as dynamic tools.
+OpenCode implements skills through the [opencode-skills](https://github.com/malhashemi/opencode-skills) plugin, which automatically discovers and registers skills as dynamic tools.
 
 ```mermaid
 sequenceDiagram
