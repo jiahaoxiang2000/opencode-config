@@ -1,7 +1,7 @@
 ---
 name: commit-push
 description: Generate standardized commit message with emoji, update changelog if exists, and push to remote
-model: zhipuai-coding-plan/glm-4.6
+model: zhipuai-coding-plan/glm-4.7
 subtask: true
 ---
 
