@@ -35,3 +35,9 @@ installed opencode-skills@1.0.0
  stderr=Resolving dependencies
 Resolved, downloaded and extracted [1]
 ```
+
+### Alternative Mitigation: Skip Plugin Installation
+
+If you don't need the authentication plugins (e.g., `opencode-anthropic-auth` and `opencode-copilot-auth`), you can skip their installation entirely. This avoids the slow package resolution and download phase, significantly reducing CLI startup time.
+
+To do this, configure OpenCode to not install or use the plugins during startup.
