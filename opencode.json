@@ -12,7 +12,7 @@
     }
   },
   "provider": {
-    "mimo": {
+    "xiaomi": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Xiaomi MIMO",
       "options": {
