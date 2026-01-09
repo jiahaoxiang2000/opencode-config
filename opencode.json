@@ -31,7 +31,7 @@
     }
   },
   "tools": {},
-  "plugin": [],
+  "plugin": ["opencode-anthropic-auth"],
   "agent": {},
   "command": {},
   "formatter": {},
