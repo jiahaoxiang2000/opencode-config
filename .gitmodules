@@ -1,0 +1,3 @@
+[submodule "skill"]
+	path = skill
+	url = https://github.com/jiahaoxiang2000/claude-skills
