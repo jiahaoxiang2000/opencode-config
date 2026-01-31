@@ -1,7 +1,7 @@
 ---
 description: Custom explore agent based on Anthropic/Claude prompt
 mode: subagent
-model: zhipuai-coding-plan/glm-4.7
+model: zhipuai-coding-plan/glm-4.6
 tools:
   "*": true
 temperature: 0.3
